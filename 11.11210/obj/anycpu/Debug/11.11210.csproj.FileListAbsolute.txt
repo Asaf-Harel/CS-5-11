@@ -1,0 +1,5 @@
+/Users/asafharel/Projects/CS-5/11.11210/bin/Debug/11.11210.exe
+/Users/asafharel/Projects/CS-5/11.11210/bin/Debug/11.11210.pdb
+/Users/asafharel/Projects/CS-5/11.11210/obj/anycpu/Debug/11.11210.csproj.CoreCompileInputs.cache
+/Users/asafharel/Projects/CS-5/11.11210/obj/anycpu/Debug/11.11210.exe
+/Users/asafharel/Projects/CS-5/11.11210/obj/anycpu/Debug/11.11210.pdb
