@@ -6,25 +6,35 @@ namespace ADT_HW
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // ...
         }
 
         public string StateDangerRate(Countie[] counties)
         {
+
             int veryHighCounter = 0;
             int highCounter = 0;
 
+            bool isVeryHigh = false;
+
             for (int i = 0; i < counties.Length; i++)
             {
+                FireDanger[] daysDanger = counties.GetNextFiveDays();
 
-                if (counties[i].DangerRate() == 5)
+
+                for (int j = 0; j < daysDanger.Length; j++)
                 {
+                    if (daysDanger[i].DangerRate() == 5)
+                        isVeryHigh = true;
+
+                    else if ((2 < daysDanger[i].DangerRate()) && !(isVeryHigh))
+                        isVeryHigh = false;
+                }
+
+                if (isVeryHigh)
                     veryHighCounter++;
-                }
-                else if (2 < counties[i].DangerRate())
-                {
+                else
                     highCounter++;
-                }
             }
 
             if ((int)(counties.Length * (1.0/3.0)) <= veryHighCounter)
