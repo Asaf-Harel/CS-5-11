@@ -1,18 +1,20 @@
 ﻿<Properties StartupConfiguration="{D46B6EFB-1088-429F-9D28-12CB02DFF469}|Default">
   <MonoDevelop.Ide.ItemProperties.10.16123 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="11.11225/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="11.11210/School.cs">
     <Files>
-      <File FileName="11.11225/Program.cs" Line="17" Column="54" />
-      <File FileName="11.11225/FireDanger.cs" />
-      <File FileName="11.11225/Countie.cs" />
+      <File FileName="11.11220/Mall.cs" Line="1" Column="1" />
+      <File FileName="11.11220/Store.cs" Line="26" Column="10" />
+      <File FileName="11.11210/School.cs" Line="29" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CS-5" expanded="True">
-            <Node name="11.11225" expanded="True">
-              <Node name="Program.cs" selected="True" />
+            <Node name="11.11210" expanded="True">
+              <Node name="School.cs" selected="True" />
             </Node>
+            <Node name="11.11220" expanded="True" />
+            <Node name="11.11225" expanded="True" />
           </Node>
         </State>
       </Pad>

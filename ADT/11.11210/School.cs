@@ -35,7 +35,7 @@ namespace ADT_HW
 
         public void addTeacher(Teacher newTeacher)
         {
-            teachers[numOfTeachers - 1] = newTeacher;
+            teachers[numOfTeachers] = newTeacher;
             numOfTeachers++;
         }
 
