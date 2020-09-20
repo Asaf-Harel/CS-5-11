@@ -17,7 +17,7 @@ namespace ADT_HW2
          * <param name="name">The store's name</param>
          * <returns>True if the store exist, else - false</returns>
          **/
-        public bool IsExist(string name)
+        public bool DoesExist(string name)
         {
             for (int i = 0; i < stores.Length; i++)
             {
