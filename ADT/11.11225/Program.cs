@@ -9,7 +9,7 @@ namespace ADT_HW
             // ...
         }
 
-        public string StateDangerRate(Countie[] counties)
+        public static string StateDangerRate(Countie[] counties)
         {
 
             int veryHighCounter = 0;

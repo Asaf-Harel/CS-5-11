@@ -35,11 +35,12 @@ namespace ADT_HW
                 rate += (degrees - 100) / 10;
             }
 
-            if (5 < rate)
+            if (rate == 0)
             {
-                return 5;
+                rate = 0;
             }
-            return rate;
+
+            return Math.Min(rate, 5);
         }
     }
 }

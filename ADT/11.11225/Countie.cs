@@ -5,7 +5,7 @@ namespace ADT_HW
     {
         private string name; // Countie name
         private FireDanger[] nextFiveDays; // Fire danger on the next 5 days
-
+            
         public Countie(string name, FireDanger[] nextFiveDays)
         {
             this.name = name;

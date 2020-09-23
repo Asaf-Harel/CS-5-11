@@ -6,15 +6,18 @@ namespace Test
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Factor(4));
+            WhatDoes1(3, 4, 5);
         }
 
-        public static int Factor(int n)
+        public static void WhatDoes1(int x, int y, int z)
         {
-            if (n == 0)
-                return 1;
+            if (z == 1)
+                Console.WriteLine(x);
             else
-                return n * Factor(n - 1);
+            {
+                Console.WriteLine(x);
+                WhatDoes1(x * y, y, z - 1);
+            }
         }
     }
 }
