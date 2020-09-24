@@ -2,19 +2,17 @@
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.11.11250 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.10.16123 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="11.11250/SuperDoor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="11.11250/Door.cs">
     <Files>
-      <File FileName="11.11250/Agent.cs" Line="1" Column="1" />
-      <File FileName="11.11250/Door.cs" Line="1" Column="1" />
-      <File FileName="11.11250/SuperDoor.cs" Line="1" Column="1" />
+      <File FileName="11.11250/Door.cs" Line="19" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CS-5" expanded="True">
-            <Node name="11.11225" expanded="True" />
+            <Node name="11.11220" expanded="True" />
             <Node name="11.11250" expanded="True">
-              <Node name="SuperDoor.cs" selected="True" />
+              <Node name="Door.cs" selected="True" />
             </Node>
           </Node>
         </State>

@@ -13,6 +13,12 @@ namespace ADT_HW
         {
         }
 
+        /**
+        * <summary>
+        * Calculate the door's security level
+        * </summary>
+        * <returns>The door's security level</returns>
+        **/
         public int doorSecurityLevel()
         {
             int level = lockLevel * 7;

@@ -4,25 +4,26 @@ namespace ADT_HW
     public class SuperDoor
     {
         Agent[] agents; // The company agents
+        int agentsCounter = 0; // The number of agents in superdoor
 
         public SuperDoor()
         {
+            agents = new Agent[20];
         }
 
+        /**
+        * <summary>
+        * Check if the agents meet the selling goal and show the result
+        * </summary>
+        * <param name="goal">The selling goal</param>
+        **/
         public void monthlySellingGoal(int goal)
         {
             int counter = 0;
 
-            for (int i = 0; i < agents.Length; i++)
+            for (int i = 0; i < agentsCounter; i++)
             {
-                if (agents[i] != null)
-                {
-                    for (int j = 0; j < agents[i].getDoors().Length; j++)
-                    {
-                        if (agents[i].getDoors()[j] != null)
-                            counter++;
-                    }
-                }
+                counter += agents[i].getDoorsCounter();
             }
 
             if (counter < goal)
