@@ -6,18 +6,19 @@ namespace Test
     {
         public static void Main(string[] args)
         {
-            WhatDoes1(3, 4, 5);
-        }
+            int[,] a = new int[3, 4];
+            a[1, 0] = 2;
+            Console.WriteLine(a.GetLength(0));
 
-        public static void WhatDoes1(int x, int y, int z)
-        {
-            if (z == 1)
-                Console.WriteLine(x);
-            else
+            for (int i = 0; i < a.GetLength(0); i++)
             {
-                Console.WriteLine(x);
-                WhatDoes1(x * y, y, z - 1);
+                for (int j = 0; j < a.GetLength(1); j++)
+                {
+                    Console.Write(a[i,j]);
+                }
+                Console.WriteLine();
             }
         }
+
     }
 }
