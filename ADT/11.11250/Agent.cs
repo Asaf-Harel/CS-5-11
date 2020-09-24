@@ -18,7 +18,7 @@ namespace ADT_HW
             {
                 if (doors[i] != null)
                 {
-                    if (doors[i].getLockLevel() < level)
+                    if (doors[i].getLockLevel() > level)
                         counter++;
                 }
             }
