@@ -6,17 +6,19 @@ namespace Test
     {
         public static void Main(string[] args)
         {
-            int[,] a = new int[3, 4];
-            a[1, 0] = 2;
-            Console.WriteLine(a.GetLength(0));
+            Console.WriteLine(WhatDoes3(92145));
+        }
 
-            for (int i = 0; i < a.GetLength(0); i++)
+        static int WhatDoes3(int n)
+        {
+            if (n == 0)
+                return 0;
+            else
             {
-                for (int j = 0; j < a.GetLength(1); j++)
-                {
-                    Console.Write(a[i,j]);
-                }
-                Console.WriteLine();
+                if ((n % 10) % 3 == 0)
+                    return WhatDoes3(n / 10);
+                else
+                    return (n % 10) + WhatDoes3(n / 10);
             }
         }
 
