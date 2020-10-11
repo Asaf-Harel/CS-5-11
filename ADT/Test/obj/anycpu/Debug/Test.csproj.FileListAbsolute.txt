@@ -4,3 +4,9 @@
 /Users/asafharel/Projects/CS-5/ADT/Test/obj/anycpu/Debug/Test.csproj.CoreCompileInputs.cache
 /Users/asafharel/Projects/CS-5/ADT/Test/obj/anycpu/Debug/Test.exe
 /Users/asafharel/Projects/CS-5/ADT/Test/obj/anycpu/Debug/Test.pdb
+/Users/asafharel/Documents/School/CS-5/ADT/Test/bin/Debug/Test.exe
+/Users/asafharel/Documents/School/CS-5/ADT/Test/bin/Debug/Test.pdb
+/Users/asafharel/Documents/School/CS-5/ADT/Test/obj/anycpu/Debug/Test.csprojAssemblyReference.cache
+/Users/asafharel/Documents/School/CS-5/ADT/Test/obj/anycpu/Debug/Test.csproj.CoreCompileInputs.cache
+/Users/asafharel/Documents/School/CS-5/ADT/Test/obj/anycpu/Debug/Test.exe
+/Users/asafharel/Documents/School/CS-5/ADT/Test/obj/anycpu/Debug/Test.pdb
