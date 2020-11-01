@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.11250", "11.11250\11.11250.csproj", "{A8A06458-887B-4DB1-9AF1-7E4FE8A48D58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.13121", "11.13121\11.13121.csproj", "{E69B48A0-6B12-406B-ABE0-0E6068FE2DE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -43,5 +45,9 @@ Global
 		{A8A06458-887B-4DB1-9AF1-7E4FE8A48D58}.Debug|anycpu.Build.0 = Debug|anycpu
 		{A8A06458-887B-4DB1-9AF1-7E4FE8A48D58}.Release|anycpu.ActiveCfg = Release|anycpu
 		{A8A06458-887B-4DB1-9AF1-7E4FE8A48D58}.Release|anycpu.Build.0 = Release|anycpu
+		{E69B48A0-6B12-406B-ABE0-0E6068FE2DE8}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E69B48A0-6B12-406B-ABE0-0E6068FE2DE8}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E69B48A0-6B12-406B-ABE0-0E6068FE2DE8}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E69B48A0-6B12-406B-ABE0-0E6068FE2DE8}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal

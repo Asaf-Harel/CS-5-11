@@ -1,25 +1,24 @@
-﻿<Properties StartupConfiguration="{17E9AC3A-C3E7-4A39-906D-665818FCE224}|Default">
+﻿<Properties StartupConfiguration="{E69B48A0-6B12-406B-ABE0-0E6068FE2DE8}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.11.11250 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.10.16123 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="11.13121/Program.cs">
     <Files>
       <File FileName="Test/Program.cs" Line="17" Column="33" />
+      <File FileName="11.13121/Program.cs" Line="97" Column="10" />
+      <File FileName="11.13121/Stack.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CS-5" expanded="True">
-            <Node name="11.11220" expanded="True" />
-            <Node name="11.11250" expanded="True" />
-            <Node name="Test" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="11.13121" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.11.13121 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.11.11225 FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
