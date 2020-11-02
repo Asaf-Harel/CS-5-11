@@ -5,14 +5,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="11.13121/Program.cs">
     <Files>
       <File FileName="Test/Program.cs" Line="17" Column="33" />
-      <File FileName="11.13121/Program.cs" Line="97" Column="10" />
-      <File FileName="11.13121/Stack.cs" Line="1" Column="1" />
+      <File FileName="11.13121/Program.cs" Line="13" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CS-5" expanded="True">
-            <Node name="11.13121" expanded="True" selected="True" />
+            <Node name="11.13121" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

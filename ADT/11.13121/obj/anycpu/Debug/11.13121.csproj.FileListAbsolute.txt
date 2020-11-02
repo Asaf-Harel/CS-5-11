@@ -3,3 +3,4 @@
 /Users/asafharel/Documents/School/CS-5/ADT/11.13121/obj/anycpu/Debug/11.13121.csproj.CoreCompileInputs.cache
 /Users/asafharel/Documents/School/CS-5/ADT/11.13121/obj/anycpu/Debug/11.13121.exe
 /Users/asafharel/Documents/School/CS-5/ADT/11.13121/obj/anycpu/Debug/11.13121.pdb
+/Users/asafharel/Documents/School/CS-5/ADT/11.13121/obj/anycpu/Debug/11.13121.csprojAssemblyReference.cache

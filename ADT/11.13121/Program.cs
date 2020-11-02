@@ -51,7 +51,7 @@ namespace Scan
                 }
                 else
                 {
-                    if (GetNumLength(x) % 2 != 0) { oddCounter++; }
+                    if (GetNumLength(Math.Abs(x)) % 2 != 0) { oddCounter++; }
                 }
                 s.Pop();
             }
