@@ -2,11 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.11.11250 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.10.16123 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="11.13121/Program.cs">
-    <Files>
-      <File FileName="Test/Program.cs" Line="17" Column="33" />
-      <File FileName="11.13121/Program.cs" Line="13" Column="29" />
-    </Files>
+  <MonoDevelop.Ide.ItemProperties.11.13140 FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -14,6 +11,7 @@
             <Node name="11.13121" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="11.13140" expanded="True" />
           </Node>
         </State>
       </Pad>

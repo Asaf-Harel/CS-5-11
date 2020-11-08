@@ -34,7 +34,6 @@ namespace Test
                 return WhatDoes1(a[k]) + WhatDoes(a, k + 1);
             else
                 return WhatDoes2(a[k]) + WhatDoes(a, k + 1);
-
         }
 
     }
