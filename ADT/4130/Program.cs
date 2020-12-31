@@ -7,10 +7,12 @@ namespace Application
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Queue<char> q = new Queue<char>();
+			q.Insert('3'); q.Insert('5'); q.Insert('9');
+            Console.WriteLine(Biggest2Digits(q));
 		}
 
-		static int biggest2digits(Queue<Char> q)
+		static int Biggest2Digits(Queue<Char> q)
 		{
 			int biggest = 0;
 			int second = 0;
@@ -35,7 +37,7 @@ namespace Application
 				q.Remove();
 			}
 
-			return (biggest * 10 + second);
+			return ((biggest - 48) * 10 + (second - 48));
 		}
 	}
 }
