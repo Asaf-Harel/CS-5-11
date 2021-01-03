@@ -6,7 +6,10 @@ namespace Application
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("...");
+            Stack<int> s = new Stack<int>();
+            s.Push(5); s.Push(2); s.Push(4); s.Push(6); s.Push(1);
+
+            Console.WriteLine(ECO(s));
         }
 
         // Element Change Order

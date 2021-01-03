@@ -1,14 +1,26 @@
 ﻿using System;
 
-namespace Test
+namespace Application
 {
     class MainClass
     {
         public static void Main(string[] args)
         {
             Queue<int> q = new Queue<int>();
-            q.Insert(9006); q.Insert(33); q.Insert(1540); q.Insert(30); q.Insert(20); q.Insert(6016); q.Insert(3001); q.Insert(106);
-            q.Insert(99); q.Insert(42); q.Insert(36);
+
+            string input = "";
+            int i = 0;
+
+            while (input != "q")
+            {
+                Console.Write("Enter a number (or q to quit): ");
+                input = Console.ReadLine();
+
+                if (int.TryParse(input, out i))
+                    q.Insert(int.Parse(input));
+                else
+                    Console.WriteLine("Please enter a valid input");
+            }
 
             Console.WriteLine(Skip3Queue(q));
         }
