@@ -1,0 +1,2 @@
+/Users/asafharel/Documents/School/CS-5/ADT/11.11320/obj/anycpu/Debug/11.11320.csprojAssemblyReference.cache
+/Users/asafharel/Documents/School/CS-5/ADT/11.11320/obj/anycpu/Debug/11.11320.csproj.CoreCompileInputs.cache
