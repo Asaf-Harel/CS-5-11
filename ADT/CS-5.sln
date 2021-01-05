@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.14220", "11.14220\11.142
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.11320", "11.11320\11.11320.csproj", "{F4607EE1-C062-46B9-A976-99B471C1DFA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.13550", "11.13550\11.13550.csproj", "{D7C05366-AFDC-4010-AA3B-30C12BC90336}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -121,5 +123,9 @@ Global
 		{F4607EE1-C062-46B9-A976-99B471C1DFA8}.Debug|anycpu.Build.0 = Debug|anycpu
 		{F4607EE1-C062-46B9-A976-99B471C1DFA8}.Release|anycpu.ActiveCfg = Release|anycpu
 		{F4607EE1-C062-46B9-A976-99B471C1DFA8}.Release|anycpu.Build.0 = Release|anycpu
+		{D7C05366-AFDC-4010-AA3B-30C12BC90336}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{D7C05366-AFDC-4010-AA3B-30C12BC90336}.Debug|anycpu.Build.0 = Debug|anycpu
+		{D7C05366-AFDC-4010-AA3B-30C12BC90336}.Release|anycpu.ActiveCfg = Release|anycpu
+		{D7C05366-AFDC-4010-AA3B-30C12BC90336}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
