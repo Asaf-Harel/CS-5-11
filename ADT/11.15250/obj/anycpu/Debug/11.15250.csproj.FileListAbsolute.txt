@@ -1,0 +1,6 @@
+/Users/asafharel/Documents/School/CS-5/ADT/11.15250/bin/Debug/11.15250.exe
+/Users/asafharel/Documents/School/CS-5/ADT/11.15250/bin/Debug/11.15250.pdb
+/Users/asafharel/Documents/School/CS-5/ADT/11.15250/obj/anycpu/Debug/11.15250.csprojAssemblyReference.cache
+/Users/asafharel/Documents/School/CS-5/ADT/11.15250/obj/anycpu/Debug/11.15250.csproj.CoreCompileInputs.cache
+/Users/asafharel/Documents/School/CS-5/ADT/11.15250/obj/anycpu/Debug/11.15250.exe
+/Users/asafharel/Documents/School/CS-5/ADT/11.15250/obj/anycpu/Debug/11.15250.pdb

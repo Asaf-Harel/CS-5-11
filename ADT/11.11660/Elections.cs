@@ -15,23 +15,19 @@ namespace Application
                 if (parties[i].GetName() == name)
                 {
                     parties[i].SetVotes(parties[i].GetVotes() + 1);
-                    break;
+                    return;
                 }
             }
         }
 
         public void ShowLast()
         {
-            int min = 0;
             Party last = parties[0];
 
             for (int i = 1; i < partiesCount; i++)
             {
-                if (parties[i].GetVotes() < min)
-                {
+                if (parties[i].GetVotes() < last.GetVotes())
                     last = parties[i];
-                    min = parties[i].GetVotes();
-                }
             }
 
             last.ShowKCandidates(10);

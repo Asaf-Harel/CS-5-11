@@ -17,7 +17,7 @@ namespace Application
         public void ShowKCandidates(int k)
         {
             Console.WriteLine(chairman.FullName());
-            k -= 1;
+            k --;
 
             Node<Candidate> p = candidates;
             while(k != 0)
@@ -28,7 +28,7 @@ namespace Application
                 {
                     Console.WriteLine(p.GetValue().FullName());
                     p = p.GetNext();
-                    k -= 1;
+                    k--;
                 }
             }
         }
