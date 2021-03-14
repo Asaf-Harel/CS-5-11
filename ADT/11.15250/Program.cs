@@ -11,28 +11,25 @@ namespace Application
             int h, g, n;
             StudentSleep s;
 
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 30; i++)
             {
-                h = rnd.Next(1, 15);
-                g = rnd.Next(10, 13);
-                n = rnd.Next(1, 8);
+                h = rnd.Next(1, 15); g = rnd.Next(10, 13); n = rnd.Next(1, 8);
                 s = new StudentSleep(h, g, n);
 
                 if (first == null)
-                {
-                    first = new Node<StudentSleep>(s);
-                    last = first;
-                }
+                { first = new Node<StudentSleep>(s); last = first; }
                 else
-                {
-                    last.SetNext(new Node<StudentSleep>(s));
-                    last = last.GetNext();
-                }
+                { last.SetNext(new Node<StudentSleep>(s)); last = last.GetNext(); }
             }
            
             NeedToSleep(first);
         }
 
+
+        /**
+         * <summary>מציגה אם כיתה צריכה לעבור הרצאת שינה</summary>
+         * <param name="p">רשימת התלמידים בבית הספר</param>
+        **/
         static void NeedToSleep(Node<StudentSleep> p)
         {
             for (int i = 10; i <= 12; i++)
@@ -45,6 +42,9 @@ namespace Application
             }
         }
 
+        /**
+         * 
+        **/
         static bool IsGoodSleep(Node<StudentSleep> p, int grade, int num)
         {
             StudentSleep x;
