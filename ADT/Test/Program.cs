@@ -97,3 +97,37 @@ namespace Test
         }
     }
 }
+
+/*
+            string s = "";
+            Node<string> first = null, last = null;
+            while (true)
+            {
+                Console.Write("Enter a string or q to quit: ");
+                s = Console.ReadLine();
+
+                if (s == "q") { break; }
+
+                string n = s;
+
+                if (first == null)
+                {
+                    first = new Node<string>(n); last = first;
+                }
+
+                else
+                {
+                    last.SetNext(new Node<string>(n));
+                    last = last.GetNext();
+                }
+            }
+
+            Node<string> p = EndStringConcat(first);
+            while (p != null)
+            {
+                Console.Write($"| {p} ");
+                p = p.GetNext();
+            }
+            Console.Write("|");
+            Console.WriteLine();
+ */
