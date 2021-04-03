@@ -1,0 +1,4 @@
+C:\Users\User\Documents\School\CS-5-11\ADT\11.15345\bin\Release\11.15345.exe
+C:\Users\User\Documents\School\CS-5-11\ADT\11.15345\obj\anycpu\Release\11.15345.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\School\CS-5-11\ADT\11.15345\obj\anycpu\Release\11.15345.exe
+C:\Users\User\Documents\School\CS-5-11\ADT\11.15345\obj\anycpu\Release\11.15345.csprojAssemblyReference.cache

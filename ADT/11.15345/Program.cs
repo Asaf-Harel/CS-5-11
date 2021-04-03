@@ -7,6 +7,7 @@ namespace Application
         public static void Main(string[] args)
         {
             Console.WriteLine("O(n + m)");
+            Console.ReadLine();
         }
 
         /// <summary>יוצרת רשימה של רצפי מחרוזות סוף שרשור</summary>
