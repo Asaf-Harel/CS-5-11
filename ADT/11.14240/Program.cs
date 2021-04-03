@@ -1,22 +1,17 @@
 ﻿using System;
 
-namespace _11._14240
+namespace Application
 {
-    class Program
+    class MainClass
     {
         static void Main(string[] args)
         {
-            Queue<Waiting> q = new Queue<Waiting>();
-            Queue<int> q2 = new Queue<int>();
-            Random rnd = new Random();
-            for (int i = 0; i < 15; i++)
-            {
-                q.Insert(new Waiting(rnd.Next(0, 3), true));
-            }
-            q2 = ValidQueue(q);
-            Console.WriteLine(q2.ToString());
+            Console.WriteLine("O(n)");
         }
 
+        /// <summary>בודקת את כל הרצפים של תורים תקינים</summary>
+        /// <param name="q">תור של אנשים</param>
+        /// <returns>תור של כל הרצפים של תורים תקינים</returns>
         static Queue<int> ValidQueue(Queue<Waiting> q)
         {
             Queue<int> q2 = new Queue<int>();
@@ -25,13 +20,16 @@ namespace _11._14240
             while (!q.IsEmpty())
             {
                 seq = ValidSeq(q);
-
                 if (seq > 0)
                     q2.Insert(seq);
+
             }
             return q2;
         }
 
+        /// <summary>בודקת את מספר האנשים בתור תקין</summary>
+        /// <param name="q">תור של אנשים</param>
+        /// <returns>מספר האנשים בתור תקין</returns>
         static int ValidSeq(Queue<Waiting> q)
         {
             int countValid = 0;
@@ -44,7 +42,10 @@ namespace _11._14240
                 if ((w.GetDfHead() >= 2.0) && w.GetHasMask())
                     countValid++;
                 else
+                {
+                    q.Remove();
                     return countValid;
+                }
 
                 q.Remove();
             }

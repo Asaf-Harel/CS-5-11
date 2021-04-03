@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace _11._14240
+namespace Application
 {
-    class Waiting
+    public class Waiting
     {
         private double dfHead;
         private bool hasMask;
