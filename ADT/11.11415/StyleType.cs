@@ -6,9 +6,7 @@ namespace Application
         private string name;
         private string style;
 
-        public StyleType()
-        {
-        }
+        public StyleType() { }
 
         public string GetName() { return name; }
         public string GetStyle() { return style; }

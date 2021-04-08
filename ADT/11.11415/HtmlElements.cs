@@ -3,7 +3,7 @@ namespace Application
 {
     public class HtmlElements
     {
-        private HtmlElement[] htmlElements = new HtmlElement[1000]; // מערך של 1000 אלמנטים (10 עמודים כפול 100 שורות)
+        private HtmlElement[,] pages = new HtmlElement[10, 100]; // מערך של 10 עמודים עם 100 שורות
 
         public HtmlElements() {}
 
@@ -13,13 +13,17 @@ namespace Application
         /// <returns>כמה פעמים המזהה הופיע</returns>
         public int HowManyIDs(string id, int pageNum)
         {
-            pageNum = (pageNum - 1) * 100;
             int countIDs = 0;
+            pageNum -= 1;
 
-            for (int i = pageNum; i < pageNum + 100; i++)
+            for (int i = 0; i < pages.GetLength(1); i++)
             {
-                if (htmlElements[i].GetId() == id)
+
+                if (pages[pageNum, i].GetId() == id)
                     countIDs++;
+                if (pages[pageNum, i].IsLastInPage())
+                    return countIDs;
+   
             }
             return countIDs;
         }
@@ -29,12 +33,14 @@ namespace Application
         /// <returns>true - אם יש מזהה שמופיע יותר מפעם אחת | false - אם אין</returns>
         public bool DoesMoreThanOneElem(int pageNum)
         {
-            int modifiedPageNum = (pageNum - 1) * 100;
+            pageNum -= 1;
 
-            for (int i = modifiedPageNum; i < modifiedPageNum + 100; i++)
+            for (int i = 0; i < pages.GetLength(1); i++)
             {
-                if (HowManyIDs(htmlElements[i].GetId(), pageNum) > 1)
+                if (HowManyIDs(pages[pageNum, i].GetId(), pageNum + 1) > 1)
                     return true;
+                if (pages[pageNum, i].IsLastInPage())
+                    return false;
             }
             return false;
         }

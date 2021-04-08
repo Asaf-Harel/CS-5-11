@@ -6,7 +6,7 @@ namespace Application
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("O(n^3 + m)");
+            Console.WriteLine("O(n * m)");
         }
 
         /// <summary>מקבלת רשימה של מספרים ויוצרת מערך של 3 תאים כאשר בכל תא יש מספרים שהספרות שלהם לא מתחלקות בשארית האינדקס</summary>
