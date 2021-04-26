@@ -8,6 +8,7 @@ namespace Application
 
         public WeatherForecast() { }
 
+        /// <summary>מחזירה את רמת החום</summary>
         public int TempLevel()
         {
             if (temp < 22)
@@ -20,6 +21,7 @@ namespace Application
                 return 3;
         }
 
+        /// <summary>מחזירה את רמת החום בהתאם ללחות</summary>
         public int TempLevelHu()
         {
             if (humdity > 75)
