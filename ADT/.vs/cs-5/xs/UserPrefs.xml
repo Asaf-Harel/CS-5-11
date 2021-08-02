@@ -1,31 +1,34 @@
-﻿<Properties StartupConfiguration="{6E4AAB1B-0BD1-4468-B934-046D661F922D}|Default">
+﻿<Properties StartupConfiguration="{BF225A24-FAD2-491F-9AA6-6C18DE204869}|Default">
   <MonoDevelop.Ide.ItemProperties.10.16123 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.11.15280 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.11.18140 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.11.11415 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="11.02410/WeatherForecast.cs">
+  <MonoDevelop.Ide.ItemProperties.11.14410 FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="11.15140/Program.cs">
     <Files>
-      <File FileName="Test/Program.cs" Line="21" Column="18" />
-      <File FileName="11.02410/Program.cs" Line="1" Column="1" />
-      <File FileName="11.02410/WeatherForecast.cs" Line="7" Column="13" />
+      <File FileName="11.15140/Program.cs" Line="12" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CS-5" expanded="True">
-            <Node name="11.02410" expanded="True">
-              <Node name="WeatherForecast.cs" selected="True" />
+            <Node name="11.15140" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.11.15140 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.11.15350 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.11.14240 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.11.15233 FirstBuild="True" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.11.15290 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.11.02410 FirstBuild="True" />
